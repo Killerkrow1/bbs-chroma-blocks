@@ -60,11 +60,29 @@ public class BBSChromaBlocks implements ModInitializer {
 				entries.add(CHROMA_YELLOW_BLOCK_ITEM);
 				entries.add(CHROMA_BLACK_BLOCK_ITEM);
 				entries.add(CHROMA_WHITE_BLOCK_ITEM);
+				entries.add(ModItems.REVERENCE_COOKIE);
+				entries.add(ModItems.REVERENCE_COCKTAIL);
+				entries.add(ModItems.REVERENCE_TEA);
+				entries.add(ModItems.REVERENCE_WINE);
+				entries.add(ModItems.REVERENCE_JUICE);
+				entries.add(ModItems.REVERENCE_SAUCE);
+				entries.add(ModItems.REVERENCE_ROLL);
+				entries.add(ModItems.REVERENCE_ICE_CREAM);
+				entries.add(ModItems.FRIED_REVERENCE_BERRY);
+				entries.add(ModItems.REVERENCE_CUPCAKE);
+				entries.add(ModItems.REVERENCE_CAKE);
+				entries.add(ModItems.REVERENCE_CAKE_SLICE);
+				entries.add(ModItems.REVERENCE_PIE);
+				entries.add(ModItems.REVERENCE_PIE_SLICE);
+				entries.add(ModItems.REVERENCE_TART);
+				entries.add(ModItems.REVERENCE_TART_SLICE);
 			})
 			.build();
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerItems();
+
 		Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "chroma_red"), CHROMA_RED_BLOCK);
 		Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "chroma_green"), CHROMA_GREEN_BLOCK);
 		Registry.register(Registries.BLOCK, new Identifier(MOD_ID, "chroma_blue"), CHROMA_BLUE_BLOCK);

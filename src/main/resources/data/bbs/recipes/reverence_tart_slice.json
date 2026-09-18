@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bbs:reverence_tart"
+    },
+    {
+      "item": "paradigm:atlas_cooking_knife"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "bbs:reverence_tart_slice"
+  }
+}

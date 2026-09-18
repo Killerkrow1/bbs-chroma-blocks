@@ -8,5 +8,23 @@
     "block.bbs.chroma_yellow": "Yellow chroma",
     "block.bbs.chroma_black": "Black chroma",
     "block.bbs.chroma_white": "White chroma",
-    "itemGroup.bbs.main": "BBS Chroma Blocks"
+    "itemGroup.bbs.main": "BBS Chroma Blocks",
+
+    "item.bbs.reverence_cocktail": "Reverence Cocktail",
+    "item.bbs.reverence_cookie": "Reverence Cookie",
+    "item.bbs.reverence_tart": "Reverence Tart",
+    "item.bbs.reverence_tart_slice": "Reverence Tart Slice",
+    "item.bbs.reverence_tea": "Reverence Tea",
+    "item.bbs.reverence_wine": "Reverence Wine",
+    "item.bbs.reverence_sauce": "Reverence Sauce",
+    "item.bbs.reverence_roll": "Reverence Roll",
+    "item.bbs.reverence_ice_cream": "Reverence Ice Cream",
+    "item.bbs.fried_reverence_berry": "Fried Reverence Berry",
+
+    "item.bbs.reverence_juice": "Reverence Juice",
+    "item.bbs.reverence_cupcake": "Reverence Cupcake",
+    "item.bbs.reverence_cake": "Reverence Cake",
+    "item.bbs.reverence_cake_slice": "Reverence Cake Slice",
+    "item.bbs.reverence_pie": "Reverence Pie",
+    "item.bbs.reverence_pie_slice": "Reverence Pie Slice"
 }
